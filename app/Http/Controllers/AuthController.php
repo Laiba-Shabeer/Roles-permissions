@@ -8,6 +8,7 @@ class AuthController extends Controller
 {
     public function login()
     {
+        // dd(Hash::make(12345678));
      return view ('auth.login');
     }
 
